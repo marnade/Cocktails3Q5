@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coctails_Affaires", "Coctails_Affaires\Coctails_Affaires.csproj", "{C36589F3-A7F2-4813-8B0F-607DF5FA0423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cocktails_Services", "Cocktails_Services\Cocktails_Services.csproj", "{D593D63B-ECC7-4F9F-BA15-1FD397EDD520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cocktails_UI", "Cocktails_UI\Cocktails_UI.csproj", "{75B597E4-18E9-4477-A880-4E87BD44E35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{1AF62702-D7A2-4DC4-9F4F-F3D8165E77D5}"
+	ProjectSection(SolutionItems) = preProject
+		Cocktails.sql = Cocktails.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C36589F3-A7F2-4813-8B0F-607DF5FA0423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36589F3-A7F2-4813-8B0F-607DF5FA0423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36589F3-A7F2-4813-8B0F-607DF5FA0423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36589F3-A7F2-4813-8B0F-607DF5FA0423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D593D63B-ECC7-4F9F-BA15-1FD397EDD520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D593D63B-ECC7-4F9F-BA15-1FD397EDD520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D593D63B-ECC7-4F9F-BA15-1FD397EDD520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D593D63B-ECC7-4F9F-BA15-1FD397EDD520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B597E4-18E9-4477-A880-4E87BD44E35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B597E4-18E9-4477-A880-4E87BD44E35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B597E4-18E9-4477-A880-4E87BD44E35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B597E4-18E9-4477-A880-4E87BD44E35D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C02D205-0C60-461E-9C6B-BB7EB2E020BC}
+	EndGlobalSection
+EndGlobal
